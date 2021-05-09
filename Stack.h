@@ -16,7 +16,7 @@ public:
 	explicit Stack(int size) {
 		// set max size to the given size, and create
 		// array of that size, if the given size
-		// is less than 0, use the default of 100
+		// is less than 0, use the default of 4
 		if (size > 0) {
 			max = size;
 			stack_top = 0;
