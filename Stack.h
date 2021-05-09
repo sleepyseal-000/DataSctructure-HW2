@@ -31,7 +31,7 @@ public:
 
 	Stack() {
 		// no argument constructor, sets
-		// everything to the default size of 100
+		// everything to the default size of 4
 		max = 4;
 		stack_top = 0;
 		elements = new T[max];
